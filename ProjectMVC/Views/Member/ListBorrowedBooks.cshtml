@@ -1,0 +1,75 @@
+﻿@model IEnumerable<ProjectMVC.Models.Activity>
+
+@{
+    ViewBag.Title = "ListBorrowedBooks";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>ListBorrowedBooks</h2>
+@*<form name="FinalAccept" method="post" >
+    <br>
+    <input type="radio" name="YesNo" value="Yes" onclick="this.form.submit();"> This Year<br>
+    <input type="radio" name="YesNo" value="No" onclick="this.form.submit();"> This Month<br>
+</form>*@
+@using (Html.BeginForm())
+{
+@Html.DropDownList("Status", new List<SelectListItem>
+{
+    new SelectListItem{ Text="Borrowed", Value = "3" },
+    new SelectListItem{ Text="Read", Value = "1" }
+ },"Activity" , new { onchange = @"form.submit()" }) 
+    <span>: At </span>
+@Html.DropDownList("Month", Enumerable.Range(1, 12).
+                                Select(i => new SelectListItem
+                                {
+                                    Value = i.ToString(),
+                                    Text = System.Globalization.CultureInfo.InvariantCulture.DateTimeFormat.GetMonthName(i)
+                                }),
+                                    "-- Month --", new { onchange = @"form.submit()" })
+
+@Html.DropDownList("Year",
+                                Enumerable.Range(2017, DateTime.Now.Year - 2016).
+                                Select(i => new SelectListItem { Value = i.ToString(), Text = i.ToString() }),
+                                "-- Year --", new { onchange = @"form.submit()" })
+}
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.book.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.book.Author)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.book.Publisher)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.book.Pages)
+        </th>
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        
+        <tr>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.book.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.book.Author)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.book.Publisher)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.book.Pages)
+            </td>
+
+        </tr>
+         
+     }
+</table>

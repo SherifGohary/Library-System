@@ -1,0 +1,128 @@
+﻿@model ProjectMVC.Models.Book
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Book</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Category.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Author)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Author)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Publisher)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Publisher)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PublishDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PublishDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Quantity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Pages)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pages)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AvailableCopies)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AvailableCopies)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ShelfNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ShelfNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ArriveDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ArriveDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Image)
+        </dt>
+
+        <dd>
+            <img src="/Books/RetrieveImage/@Model.ID" alt="" height=100 width=100 />
+        </dd>
+
+
+    </dl>
+</div>
+<p>
+    @if (User.IsInRole("Employee"))
+    {
+
+        @Html.ActionLink("Edit", "Edit", new { id = Model.ID })
+        @Html.ActionLink("Delete", "Delete", new { id = Model.ID })
+    }
+    @if (User.IsInRole("Admin"))
+    {
+
+        @Html.ActionLink("Edit", "Edit", new { id = Model.ID })
+        @Html.ActionLink("Delete", "Delete", new { id = Model.ID })
+    }
+    @if (User.IsInRole("BasicAdmin"))
+    {
+
+        @Html.ActionLink("Edit", "Edit", new { id = Model.ID })
+        @Html.ActionLink("Delete", "Delete", new { id = Model.ID })
+    }
+
+
+
+
+    @Html.ActionLink("Back to List", "Index")
+</p>

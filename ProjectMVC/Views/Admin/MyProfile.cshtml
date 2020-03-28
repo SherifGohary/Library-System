@@ -1,0 +1,159 @@
+﻿@model ProjectMVC.Models.EmpAdminUser
+
+@{
+    ViewBag.Title = "Profile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Profile</h2>
+
+
+
+    <h4>MyProfile</h4>
+    <hr />
+    
+    @*<dl class="dl-horizontal">
+
+        @if (User.IsInRole("BaseAdmin") || User.IsInRole("Admin"))
+        {
+
+            <dt>
+                @Html.DisplayNameFor(model => model.applicationUser.Image)
+            </dt>
+
+            <dd>
+                <img src="/Member/RetrieveImage/@Model.ID" alt="" height=100 width=100 />
+            </dd>*@
+    @*<dt>
+        Fullname            </dt>*@
+
+    @*<dd>
+         @string.Concat(Model.applicationUser.FirstName, " ", Model.applicationUser.LastName)
+        </dd>*@
+
+
+
+    @*<dt>
+            @Html.DisplayNameFor(model => model.applicationUser.BirthDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.applicationUser.BirthDate)
+        </dd>*@
+
+    @*<dt>
+            @Html.DisplayNameFor(model => model.applicationUser.Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.applicationUser.Address)
+        </dd>*@
+
+
+
+    @*<dt>
+                @Html.DisplayNameFor(model => model.applicationUser.PhoneNumber)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.applicationUser.PhoneNumber)
+          @*<dt>
+                @Html.DisplayNameFor(model => model.HireDate)
+            </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HireDate)
+        </dd>*@
+    @*<dt>
+                @Html.DisplayNameFor(model => model.Salary)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Salary)
+            </dd>
+            }
+        </dl>*@
+
+
+
+
+
+
+<table class="table table-hover" id="MyData">
+  
+    <tr>
+        <td>FullName</td>
+        <td>
+            @string.Concat(Model.applicationUser.FirstName, " ", Model.applicationUser.LastName)
+
+        </td>
+        <td rowspan="6">
+            <img src="/Member/RetrieveImage/@Model.ID" alt="" height=100 width=100 />
+            
+        </td>
+
+    </tr>
+    <tr>
+        <td>Birthdate</td>
+        <td>
+            @Html.DisplayFor(model => model.applicationUser.BirthDate)
+
+
+        </td>
+        <td></td>
+
+    </tr>
+    <tr>
+        <td>Address</td>
+        <td>
+            @Html.DisplayFor(model => model.applicationUser.Address)
+
+        </td>
+        <td></td>
+
+    </tr>
+    <tr>
+        <td>PhoneNumber</td>
+        <td>
+            @Html.DisplayFor(model => model.applicationUser.PhoneNumber)
+
+        </td>
+        <td></td>
+
+    </tr>
+    @if (User.IsInRole("BasicAdmin"))
+    {
+        <tr>
+            <td>HireDate</td>
+            <td>
+                @Html.DisplayFor(model => model.HireDate)
+
+            </td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td>Salary</td>
+            <td>
+                @Html.DisplayFor(model => model.Salary)
+
+            </td>
+            <td></td>
+
+        </tr>
+
+    }
+    <tr>
+       
+
+        <td>
+            @Html.ActionLink("EditMyProfile", "EditProfile", "Admin", new { id = Model.ID },new { @class = "btn btn-success" })
+        </td>
+        <td>
+            @Html.ActionLink("Reset Password", "ChangePassword", "Account", new { id = Model.ID },new { @class = "btn btn-danger" })
+
+        </td>
+    </tr>
+
+</table>
+    

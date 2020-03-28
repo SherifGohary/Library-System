@@ -1,0 +1,582 @@
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\ApplicationInsights.config
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\ProjectMVC.dll.config
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\ProjectMVC.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\ProjectMVC.pdb
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Antlr3.Runtime.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\EntityFramework.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\EntityFramework.SqlServer.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.AI.Agent.Intercept.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.AI.DependencyCollector.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.AI.Web.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.AI.WindowsServer.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.ApplicationInsights.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.Core.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Cookies.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Facebook.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Google.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.OAuth.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Twitter.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.Web.Infrastructure.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Newtonsoft.Json.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Owin.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\System.Web.Helpers.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\System.Web.Mvc.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\System.Web.Optimization.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\System.Web.Razor.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.Deployment.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.Razor.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\WebGrease.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\System.Web.Helpers.xml
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\System.Web.Mvc.xml
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\System.Web.Optimization.xml
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\System.Web.Razor.xml
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.xml
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.Deployment.xml
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.Razor.xml
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Antlr3.Runtime.pdb
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Newtonsoft.Json.xml
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\EntityFramework.xml
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\EntityFramework.SqlServer.xml
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.Core.xml
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.xml
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.xml
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Facebook.xml
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Cookies.xml
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.OAuth.xml
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Google.xml
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Twitter.xml
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.ApplicationInsights.xml
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.AI.DependencyCollector.xml
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.AI.WindowsServer.xml
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\bin\Microsoft.AI.Web.xml
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.csprojResolveAssemblyReference.cache
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.csproj.CoreCompileInputs.cache
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.dll
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.pdb
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.Migrations.start.resources
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.csproj.GenerateResource.Cache
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.Migrations.two.resources
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.Migrations.firstlogin.resources
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.Migrations.firstlogin1.resources
+E:\SD Track\MVC\Project\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.Migrations.LevelNotifications.resources
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\ApplicationInsights.config
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\ProjectMVC.dll.config
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\ProjectMVC.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\ProjectMVC.pdb
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Antlr3.Runtime.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\EntityFramework.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\EntityFramework.SqlServer.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.AI.Agent.Intercept.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.AI.DependencyCollector.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.AI.Web.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.AI.WindowsServer.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.ApplicationInsights.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.Core.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Cookies.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Facebook.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Google.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.OAuth.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Twitter.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Web.Infrastructure.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Newtonsoft.Json.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Owin.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\System.Web.Helpers.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\System.Web.Mvc.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\System.Web.Optimization.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\System.Web.Razor.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.Deployment.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.Razor.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\WebGrease.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\System.Web.Helpers.xml
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\System.Web.Mvc.xml
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\System.Web.Optimization.xml
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\System.Web.Razor.xml
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.xml
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.Deployment.xml
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.Razor.xml
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Antlr3.Runtime.pdb
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Newtonsoft.Json.xml
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\EntityFramework.xml
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\EntityFramework.SqlServer.xml
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.Core.xml
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.xml
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.xml
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Facebook.xml
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Cookies.xml
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.OAuth.xml
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Google.xml
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Twitter.xml
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.ApplicationInsights.xml
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.AI.DependencyCollector.xml
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.AI.WindowsServer.xml
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.AI.Web.xml
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.csproj.CoreCompileInputs.cache
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.dll
+E:\SD Track\MVC\Project2\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.pdb
+E:\Project2\ProjectMVC\ProjectMVC\bin\ApplicationInsights.config
+E:\Project2\ProjectMVC\ProjectMVC\bin\ProjectMVC.dll.config
+E:\Project2\ProjectMVC\ProjectMVC\bin\ProjectMVC.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\ProjectMVC.pdb
+E:\Project2\ProjectMVC\ProjectMVC\bin\Antlr3.Runtime.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\EntityFramework.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\EntityFramework.SqlServer.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.AI.DependencyCollector.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.AI.Web.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.AI.WindowsServer.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.ApplicationInsights.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Google.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Web.Infrastructure.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\Newtonsoft.Json.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\Owin.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\System.Web.Helpers.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\System.Web.Mvc.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\System.Web.Optimization.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\System.Web.Razor.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.Deployment.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.Razor.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\WebGrease.dll
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Project2\ProjectMVC\ProjectMVC\bin\System.Web.Helpers.xml
+E:\Project2\ProjectMVC\ProjectMVC\bin\System.Web.Mvc.xml
+E:\Project2\ProjectMVC\ProjectMVC\bin\System.Web.Optimization.xml
+E:\Project2\ProjectMVC\ProjectMVC\bin\System.Web.Razor.xml
+E:\Project2\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.xml
+E:\Project2\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.Deployment.xml
+E:\Project2\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.Razor.xml
+E:\Project2\ProjectMVC\ProjectMVC\bin\Antlr3.Runtime.pdb
+E:\Project2\ProjectMVC\ProjectMVC\bin\Newtonsoft.Json.xml
+E:\Project2\ProjectMVC\ProjectMVC\bin\EntityFramework.xml
+E:\Project2\ProjectMVC\ProjectMVC\bin\EntityFramework.SqlServer.xml
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.xml
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.xml
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Google.xml
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.ApplicationInsights.xml
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.AI.DependencyCollector.xml
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.AI.WindowsServer.xml
+E:\Project2\ProjectMVC\ProjectMVC\bin\Microsoft.AI.Web.xml
+E:\Project2\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.csprojAssemblyReference.cache
+E:\Project2\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.csproj.CoreCompileInputs.cache
+E:\Project2\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.csproj.CopyComplete
+E:\Project2\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.dll
+E:\Project2\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.pdb
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\ApplicationInsights.config
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\ProjectMVC.dll.config
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\ProjectMVC.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\ProjectMVC.pdb
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Antlr3.Runtime.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\EntityFramework.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\EntityFramework.SqlServer.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AI.Agent.Intercept.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AI.DependencyCollector.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AI.Web.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AI.WindowsServer.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.ApplicationInsights.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.Core.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Cookies.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Facebook.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Google.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.OAuth.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Twitter.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Web.Infrastructure.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Newtonsoft.Json.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Owin.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.Helpers.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.Mvc.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.Optimization.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.Razor.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.Deployment.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.Razor.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\WebGrease.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.Helpers.xml
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.Mvc.xml
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.Optimization.xml
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.Razor.xml
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.xml
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.Deployment.xml
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.Razor.xml
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Antlr3.Runtime.pdb
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Newtonsoft.Json.xml
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\EntityFramework.xml
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\EntityFramework.SqlServer.xml
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.Core.xml
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.xml
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.xml
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Facebook.xml
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Cookies.xml
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.OAuth.xml
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Google.xml
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Twitter.xml
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.ApplicationInsights.xml
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AI.DependencyCollector.xml
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AI.WindowsServer.xml
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AI.Web.xml
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.csprojResolveAssemblyReference.cache
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.csproj.CoreCompileInputs.cache
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.dll
+E:\SD Track\MVC\Project V4\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.pdb
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\ApplicationInsights.config
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\ProjectMVC.dll.config
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\ProjectMVC.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\ProjectMVC.pdb
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Antlr3.Runtime.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\EntityFramework.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AI.Web.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Newtonsoft.Json.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Owin.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.Helpers.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.Mvc.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.Optimization.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.Razor.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\WebGrease.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.Helpers.xml
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.Mvc.xml
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.Optimization.xml
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.Razor.xml
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.xml
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Antlr3.Runtime.pdb
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Newtonsoft.Json.xml
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\EntityFramework.xml
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.xml
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.xml
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AI.Web.xml
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.csproj.CopyComplete
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.dll
+C:\Users\DELL\Desktop\Project V4\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.pdb
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\ApplicationInsights.config
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\ProjectMVC.dll.config
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\ProjectMVC.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\ProjectMVC.pdb
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Antlr3.Runtime.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\EntityFramework.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\EntityFramework.SqlServer.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AI.Agent.Intercept.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AI.DependencyCollector.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AI.Web.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AI.WindowsServer.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.ApplicationInsights.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.Core.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Cookies.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Facebook.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Google.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.OAuth.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Twitter.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Web.Infrastructure.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Newtonsoft.Json.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Owin.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.Helpers.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.Mvc.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.Optimization.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.Razor.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.Deployment.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.Razor.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\WebGrease.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.Helpers.xml
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.Mvc.xml
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.Optimization.xml
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.Razor.xml
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.xml
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.Deployment.xml
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.Razor.xml
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Antlr3.Runtime.pdb
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Newtonsoft.Json.xml
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\EntityFramework.xml
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\EntityFramework.SqlServer.xml
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.Core.xml
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.xml
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.xml
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Facebook.xml
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Cookies.xml
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.OAuth.xml
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Google.xml
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Twitter.xml
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.ApplicationInsights.xml
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AI.DependencyCollector.xml
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AI.WindowsServer.xml
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\bin\Microsoft.AI.Web.xml
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.csprojAssemblyReference.cache
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.csproj.CoreCompileInputs.cache
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.csproj.CopyComplete
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.dll
+E:\iti\Done\MVC\project\Project V4\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.pdb
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\ApplicationInsights.config
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\ProjectMVC.dll.config
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\ProjectMVC.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\ProjectMVC.pdb
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Antlr3.Runtime.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\EntityFramework.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\EntityFramework.SqlServer.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.AI.Agent.Intercept.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.AI.DependencyCollector.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.AI.Web.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.AI.WindowsServer.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.ApplicationInsights.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.Core.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Cookies.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Facebook.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Google.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.OAuth.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Twitter.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.Web.Infrastructure.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Newtonsoft.Json.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Owin.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\System.Web.Helpers.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\System.Web.Mvc.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\System.Web.Optimization.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\System.Web.Razor.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.Deployment.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.Razor.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\WebGrease.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\System.Web.Helpers.xml
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\System.Web.Mvc.xml
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\System.Web.Optimization.xml
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\System.Web.Razor.xml
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.xml
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.Deployment.xml
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\System.Web.WebPages.Razor.xml
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Antlr3.Runtime.pdb
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Newtonsoft.Json.xml
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\EntityFramework.xml
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\EntityFramework.SqlServer.xml
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.Core.xml
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.xml
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.xml
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Facebook.xml
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Cookies.xml
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.OAuth.xml
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Google.xml
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.Twitter.xml
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.ApplicationInsights.xml
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.AI.DependencyCollector.xml
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.AI.WindowsServer.xml
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\bin\Microsoft.AI.Web.xml
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.csprojAssemblyReference.cache
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.csproj.CoreCompileInputs.cache
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.csproj.CopyComplete
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.dll
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.pdb
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.Migrations.init.resources
+D:\ITI Courses\MVC\ProjectMVC\ProjectMVC\obj\Debug\ProjectMVC.csproj.GenerateResource.cache
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\ApplicationInsights.config
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\ProjectMVC.dll.config
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\ProjectMVC.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\ProjectMVC.pdb
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Antlr3.Runtime.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\EntityFramework.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\EntityFramework.SqlServer.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.AI.Agent.Intercept.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.AI.DependencyCollector.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.AI.Web.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.AI.WindowsServer.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.ApplicationInsights.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.AspNet.Identity.Core.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.Owin.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.Owin.Security.Cookies.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.Owin.Security.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.Owin.Security.Facebook.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.Owin.Security.Google.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.Owin.Security.OAuth.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.Owin.Security.Twitter.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.Web.Infrastructure.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Newtonsoft.Json.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Owin.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\System.Web.Helpers.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\System.Web.Mvc.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\System.Web.Optimization.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\System.Web.Razor.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\System.Web.WebPages.Deployment.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\System.Web.WebPages.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\System.Web.WebPages.Razor.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\WebGrease.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\System.Web.Helpers.xml
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\System.Web.Mvc.xml
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\System.Web.Optimization.xml
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\System.Web.Razor.xml
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\System.Web.WebPages.xml
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\System.Web.WebPages.Deployment.xml
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\System.Web.WebPages.Razor.xml
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Antlr3.Runtime.pdb
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Newtonsoft.Json.xml
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\EntityFramework.xml
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\EntityFramework.SqlServer.xml
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.AspNet.Identity.Core.xml
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.Owin.xml
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.Owin.Security.xml
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.Owin.Security.Facebook.xml
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.Owin.Security.Cookies.xml
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.Owin.Security.OAuth.xml
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.Owin.Security.Google.xml
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.Owin.Security.Twitter.xml
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.ApplicationInsights.xml
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.AI.DependencyCollector.xml
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.AI.WindowsServer.xml
+D:\ITI Courses\MVC\Library System\ProjectMVC\bin\Microsoft.AI.Web.xml
+D:\ITI Courses\MVC\Library System\ProjectMVC\obj\Debug\ProjectMVC.csprojAssemblyReference.cache
+D:\ITI Courses\MVC\Library System\ProjectMVC\obj\Debug\ProjectMVC.Migrations.init.resources
+D:\ITI Courses\MVC\Library System\ProjectMVC\obj\Debug\ProjectMVC.csproj.GenerateResource.cache
+D:\ITI Courses\MVC\Library System\ProjectMVC\obj\Debug\ProjectMVC.csproj.CoreCompileInputs.cache
+D:\ITI Courses\MVC\Library System\ProjectMVC\obj\Debug\ProjectMVC.csproj.CopyComplete
+D:\ITI Courses\MVC\Library System\ProjectMVC\obj\Debug\ProjectMVC.dll
+D:\ITI Courses\MVC\Library System\ProjectMVC\obj\Debug\ProjectMVC.pdb

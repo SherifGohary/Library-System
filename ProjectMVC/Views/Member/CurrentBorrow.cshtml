@@ -1,0 +1,45 @@
+﻿@model IEnumerable<ProjectMVC.Models.BorrowingBooks>
+@{
+    ViewBag.Title = "CurrentBorrow";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>CurrentBorrow</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            Book Title
+        </th>
+        <th>
+            Return Date
+        </th>
+        <th>
+            No.Borrowed Times
+        </th>
+        
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @item.Title
+        </td>
+        <td>
+            @item.EndDate
+        </td>
+        <td>
+            @item.Count
+        </td>
+        @if (DateTime.Now > item.EndDate)
+        {
+            <td>
+                <span class="btn btn-danger">Late</span>
+            </td>
+        }
+    </tr>
+}
+
+</table>

@@ -1,0 +1,132 @@
+﻿@model IEnumerable<ProjectMVC.Models.EmpAdminUser>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Employees List</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create" ,null, new { @class = "btn btn-success" })
+</p>
+<p>
+    @using (Html.BeginForm())
+    {
+        <input class="typeahead" name="Search" id="search" type="text" placeholder="Employee Search"><input type="submit" id="SearchBtn" value="Search" />
+    }
+
+</p>
+<table class="table table-striped table-dark  table-hover table-sm table-responsivetable-responsive{-sm|-md|-lg|-xl}">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.applicationUser.FirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.applicationUser.LastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.applicationUser.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.applicationUser.BirthDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.applicationUser.Address)
+        </th>
+       
+        <th>
+            @Html.DisplayNameFor(model => model.applicationUser.Image)
+        </th>
+
+       
+        <th>
+            @Html.DisplayNameFor(model => model.applicationUser.PhoneNumber)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.Salary)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.HireDate)
+        </th>
+   
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.applicationUser.FirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.applicationUser.LastName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.applicationUser.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.applicationUser.BirthDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.applicationUser.Address)
+        </td>
+
+        <td>
+            <img src="/Member/RetrieveImage/@item.ID" alt="" height=100 width=100 />
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.applicationUser.PhoneNumber)
+        </td>
+
+        <td>
+            @Html.DisplayFor(modelItem => item.Salary)
+        </td>
+    
+        <td>
+            @Html.DisplayFor(modelItem => item.HireDate)
+        </td>
+
+
+        <td>
+            @Html.ActionLink("Edit", "AdminEdit", new { id = item.ID }, new { @class = "btn btn-primary ", @style ="width:75px;"  })
+        </td>
+        <td>
+            @Html.ActionLink("Details", "Details", new { id = item.ID }, new { @class = "btn btn-warning " })
+
+
+        </td>
+        <td>
+            @Html.ActionLink("Delete", "Delete", new { id = item.ID }, new { @class = "btn btn-danger" })
+
+
+        </td>
+    </tr>
+}
+
+</table>
+@section scripts{
+    <script>
+        $(document).ready(function () {
+            $("#search").autocomplete({
+                source: function (request, response) {
+                    $.ajax({
+                        url: "/Employee/Index1",
+                        type: "POST",
+                        dataType: "json",
+                        data: { Prefix: request.term },
+                        success: function (data) {
+                            response($.map(data, function (item) {
+                                return { label: item.applicationUser.FirstName + " " + item.applicationUser.LastName, value: item.applicationUser.FirstName + " " + item.applicationUser.LastName };
+                            }))
+
+                        }
+                    })
+                },
+                messages: {
+                    noResults: "", results: ""
+                }
+            });
+        })
+    </script>
+}

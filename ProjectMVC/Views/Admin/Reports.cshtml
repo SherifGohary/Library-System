@@ -1,0 +1,50 @@
+﻿@model ProjectMVC.Models.BasicAdminReportsViewModel
+
+@{
+    ViewBag.Title = "Reports";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Reports</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.AdminsNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EmployeesNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MembersNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AvilableBooks)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BorrowedBooks)
+        </th>
+    </tr>
+
+    
+        <tr>
+            <td>
+                @Html.DisplayFor(Model=>Model.AdminsNo)
+            </td>
+            <td>
+                @Html.DisplayFor(Model => Model.EmployeesNo)
+            </td>
+            <td>
+                @Html.DisplayFor(Model => Model.MembersNo)
+            </td>
+            <td>
+                @Html.DisplayFor(Model => Model.AvilableBooks)
+            </td>
+            <td>
+                @Html.DisplayFor(Model => Model.BorrowedBooks)
+            </td>
+
+        </tr>
+    
+
+</table>

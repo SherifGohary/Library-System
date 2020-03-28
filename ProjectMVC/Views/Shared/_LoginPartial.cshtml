@@ -1,0 +1,44 @@
+﻿@using Microsoft.AspNet.Identity
+@using ProjectMVC.Models;
+@{
+    string userid;
+    ApplicationUser user_L;
+    string fullName = "";
+    if (User.Identity.GetUserId() != null)
+    {
+        userid = User.Identity.GetUserId();
+        ApplicationDbContext db = new ApplicationDbContext();
+        user_L = db.Users.SingleOrDefault(u => u.Id == userid);
+        fullName = user_L.FirstName + " " + user_L.LastName;
+
+    }
+
+}
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                @Html.ActionLink("Hello " + fullName + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
+            </li>
+            <li><a class="btn btn-danger" href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
+        </ul>
+    }
+}
+else
+{
+    <ul class="nav navbar-nav">
+        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+
+        <li>@Html.ActionLink("About", "About", "Home")</li>
+        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+        <li>@Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink", @class = "fa fa-lock" })</li>
+        <li>@Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink", @class = "fa fa-lock" })</li>
+    </ul>
+}

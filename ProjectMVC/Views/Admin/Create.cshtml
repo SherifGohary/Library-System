@@ -1,0 +1,199 @@
+﻿@model ProjectMVC.Models.EmpAdminUser
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>User Admin</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.applicationUser.FirstName, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.applicationUser.FirstName, new { htmlAttributes = new { @class = "form-control", id = "Fname" } })
+                @Html.ValidationMessageFor(model => model.applicationUser.FirstName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.applicationUser.LastName, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.applicationUser.LastName, new { htmlAttributes = new { @class = "form-control", id = "Lname" } })
+                @Html.ValidationMessageFor(model => model.applicationUser.LastName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+                @Html.LabelFor(m => m.applicationUser.BirthDate, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.EditorFor(m => m.applicationUser.BirthDate, new { @class = "form-control", @id = "birth" })
+                    @Html.ValidationMessageFor(model => model.applicationUser.BirthDate, "", new { @class = "text-danger" })
+
+                </div>
+            </div>
+        <div class="form-group">
+
+            <div class="col-md-10">
+                <label style="margin-left:95px">password</label>
+
+                <input id="Password" name="Password" type="password" style="margin-left:30px; width:280px;height:50px" />
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.applicationUser.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.applicationUser.Email, new { htmlAttributes = new { @class = "form-control", id = "emailId" } })
+                @Html.ValidationMessageFor(model => model.applicationUser.Email, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Salary, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Salary, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Salary, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.HireDate, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.HireDate, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.HireDate, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" @*onclick="createadmin()"*@ value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+<div>
+    @Html.Action("Index", "Admin")
+    @*<table class="table" id="MyData">
+            <tr>
+                <th>
+
+                    @Html.DisplayNameFor(model => model.applicationUser.FirstName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.applicationUser.LastName)
+                </th>
+
+
+                <th>
+                    @Html.DisplayNameFor(model => model.applicationUser.Email)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Salary)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.HireDate)
+                </th>
+                <th></th>
+            </tr>
+
+            <tbody>
+
+            </tbody>
+        </table>*@
+
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+
+}
+@*<script>
+        let createadmin = function () {
+            LoadData();
+            debugger
+            var st = {}
+            st.firstName = $("#Fname").val();
+            st.lastName = $("#Lname").val();
+            st.birthDate = $("#applicationUser_BirthDate").val();
+            st.email = $("#emailId").val();
+            st.salary = $("#Salary").val();
+            st.hireDate = $("#HireDate").val();
+            st.password = $("#Password").val();
+
+            debugger
+            $.ajax({
+                url: "/admin/create",
+                type: "post",
+                //dataType: "json",
+                ContentType: "application/json",
+                data: '{st: ' + JSON.stringify(st) + '}',
+                //data: {
+                //    FirstName: firstName,
+                //    LastName: lastName,
+                //    BirthDate: birthDate,
+                //    Email: email,
+                //    Salary: salary,
+                //    HireDate: hireDate,
+                //    Password: password
+                //},
+                success: function () {
+                    LoadData();
+                },
+                error: function () {
+                    alert(error.stringify);
+                }
+            });
+        }
+            //id = ""
+        function LoadData() {
+            $("#MyData tbody tr").remove();
+            $.ajax({
+                type: 'POST',
+                url: "/admin/index",
+                dataType: 'json',
+                data: {},
+                success: function (data) {
+                    var items = '';
+                    $.each(data, function (i, item) {
+                        var rows = "<tr>"
+                            + "<td class='prtoducttd'>" + item.applicationUser.FirstName + "</td>"
+                            + "<td class='prtoducttd'>" + item.applicationUser.LastName + "</td>"
+                            + "<td class='prtoducttd'>" + item.applicationUser.Email + "</td>"
+                            + "<td class='prtoducttd'>" + item.Salary + "</td>"
+                            + "<td class='prtoducttd'>" + item.HireDate + "</td>"
+
+
+                            + "</tr>";
+                        $('#MyData tbody').append(rows);
+                    });
+                },
+                error: function (ex) {
+                    //var r = jQuery.parseJSON(response.responseText);
+                    //alert("Message: " + r.Message);
+                    //alert("StackTrace: " + r.StackTrace);
+                    //alert("ExceptionType: " + r.ExceptionType);
+                }
+            });
+            return false;
+
+    }
+    $(function () {
+        $("#myform").submit(function () {
+            return false;
+        });
+    });
+
+    </script>*@

@@ -1,0 +1,124 @@
+﻿@model IEnumerable<ProjectMVC.Models.ApplicationUser>
+
+@{
+    ViewBag.Title = "All";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<p>
+    @using (Html.BeginForm())
+    {
+        <b>Search By : </b>
+        <select id="SearchBy" name="SearchBy">
+            <option value="Name">Name</option>
+            <option value="Email">E-Mail</option>
+        </select><br />
+        @Html.DropDownList("Status", new List<SelectListItem>
+       {
+           new SelectListItem{ Text="Unauthenticated", Value = "unauthenticated" },
+           new SelectListItem{ Text="authenticated", Value = "authenticated" },
+               new SelectListItem{ Text="Blocked", Value = "blocked" }
+               }, "All")
+        @*@Html.TextBox("search",null,htmlAttributes: new { @id="search"})*@
+        <input class="typeahead" name="search" id="search" type="text" placeholder="Member Search"><input type="submit" id="SearchBtn" value="Search" />
+
+    }
+
+   
+
+
+</p>
+<h2>All</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BirthDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Status)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Image)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.FirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LastName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BirthDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Status)
+        </td>
+        <td>
+            <img src="/Member/RetrieveImage/@item.Id" alt="" height=100 width=100 />
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PhoneNumber)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "EditProfile", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Profiles", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>
+@section scripts{
+    <script>
+        $(document).ready(function () {
+            $("#search").autocomplete({
+                source: function (request, response) {
+                    $.ajax({
+                        url: "/Member/Index1",
+                        type: "POST",
+                        dataType: "json",
+                        data: { Prefix: request.term, searchby: $("#SearchBy").val() },
+                        success: function (data) {
+                            response($.map(data, function (item) {
+                                if ($("#SearchBy").val() == "Name")
+                                    return { label: item.FirstName, value: item.FirstName };
+                                else
+                                    return { label: item.Email, value: item.Email };
+
+                            }))
+
+                        }
+                    })
+                },
+                messages: {
+                    noResults: "", results: ""
+                }
+            });
+        })
+    </script>
+}

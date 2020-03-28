@@ -1,0 +1,162 @@
+﻿@model ProjectMVC.Models.EmpAdminUser
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Profile</h2>
+
+<div>
+
+    <table class="table table-responsivetable-responsive{-sm|-md|-lg|-xl} table-hover table-dark">
+@if (User.IsInRole("Employee"))
+{
+        <tr>
+            <td>
+                @Html.DisplayNameFor(model => model.applicationUser.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.applicationUser.FirstName)
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                @Html.DisplayNameFor(model => model.applicationUser.LastName)
+            </td>
+
+            <td>
+                @Html.DisplayFor(model => model.applicationUser.LastName)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.DisplayNameFor(model => model.applicationUser.BirthDate)
+            </td>
+
+            <td>
+                @Html.DisplayFor(model => model.applicationUser.BirthDate)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.DisplayNameFor(model => model.applicationUser.Address)
+            </td>
+
+            <td>
+                @Html.DisplayFor(model => model.applicationUser.Address)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.DisplayNameFor(model => model.applicationUser.Image)
+            </td>
+            <td>
+                <img src="/Member/RetrieveImage/@Model.applicationUser.Id" alt="" height=100 width=100 />
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                @Html.DisplayNameFor(model => model.applicationUser.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.applicationUser.Email)
+            </td>
+        </tr>
+
+}
+else
+{
+
+    <tr>
+        <td>
+            @Html.DisplayNameFor(model => model.applicationUser.FirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.applicationUser.FirstName)
+        </td>
+    </tr>
+
+        <tr>
+            <td>
+                @Html.DisplayNameFor(model => model.applicationUser.LastName)
+            </td>
+
+            <td>
+                @Html.DisplayFor(model => model.applicationUser.LastName)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.DisplayNameFor(model => model.applicationUser.BirthDate)
+            </td>
+
+            <td>
+                @Html.DisplayFor(model => model.applicationUser.BirthDate)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.DisplayNameFor(model => model.applicationUser.Address)
+            </td>
+
+            <td>
+                @Html.DisplayFor(model => model.applicationUser.Address)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.DisplayNameFor(model => model.applicationUser.Image)
+            </td>
+            <td>
+                <img src="/Member/RetrieveImage/@Model.applicationUser.Id" alt="" height=100 width=100 />
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                @Html.DisplayNameFor(model => model.applicationUser.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.applicationUser.Email)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.DisplayNameFor(model => model.Salary)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.Salary)
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                @Html.DisplayNameFor(model => model.HireDate)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.HireDate)
+            </td>
+        </tr>
+        }
+    </table>
+    
+</div>
+@if (User.IsInRole("Employee"))
+{
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.applicationUser.Id}) |
+        @Html.ActionLink("Back to Home", "Index", new { Controller = "Home" })
+    </p>
+
+}
+else
+{
+    <p>
+        @Html.ActionLink("Edit", "AdminEdit", new { id = Model.ID }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+
+}

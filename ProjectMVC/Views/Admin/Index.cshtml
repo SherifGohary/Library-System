@@ -1,0 +1,125 @@
+﻿@model IEnumerable<ProjectMVC.Models.EmpAdminUser>
+
+@{
+    ViewBag.Title = "Index";
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+}
+<script>
+    let ConfirmDelete = function (AdminId) {
+        $("#hiddenId").val(AdminId);
+    }
+    let DeleteEmp = function (AdminId) {
+        //let AdminId = $("#hiddenId").val();
+        $.ajax({
+            url: "/Admin/Delete",
+            type: "post",
+            datatype: "JSON",
+            data: {
+                AdminID: AdminId
+            },
+            success: function (Data) {
+                $("#PufferDiv").hide();
+                $("#DeleteModal").modal("hide");
+                $("#Record_"+AdminId).remove();
+            },
+            error: function (Data) {
+
+            }
+        })
+    }
+</script>
+
+<h2>Index</h2>
+<div id="DeleteModal" class="modal fade" role="dialog" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" data-dismiss="modal" class="close">&times;</a>
+                <h3 class="modal-title">Delete!</h3>
+            </div>
+            <div class="modal-body">
+                <h4>Are you Sure to delete this admin ..!?</h4>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn btn-default" data-dismiss="modal">Cancel</a>
+                <a href="#" class="btn btn-danger" onclick="DeleteEmp()">Delete</a>
+
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    .tr:hover img {
+        width: 75px;
+        height: auto;
+        border-radius: 50%;
+    }
+
+    .tr:hover td {
+        vertical-align: middle;
+    }
+</style>
+<p>
+    @Html.ActionLink("Add New Admin", "Create", "Admin", htmlAttributes: new { @class = "btn btn-primary" })
+
+
+</p>
+
+
+<table class="table table-hover" id="MyData">
+    <tr>
+        <th>
+            FullName
+        </th>
+
+
+
+        <th>
+            @Html.DisplayNameFor(model => model.applicationUser.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Salary)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HireDate)
+        </th>
+        <th>
+            Image
+        </th>
+        <th></th>
+    </tr>
+
+    <tbody>
+
+
+        @foreach (var item in Model)
+        {
+            <tr class="tr" id="Record_@item.ID">
+
+                <input id="hiddenId" type="hidden" value="@item.ID" />
+
+
+                <td>@string.Concat(@item.applicationUser.FirstName, " ", item.applicationUser.LastName) </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.applicationUser.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Salary)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.HireDate)
+                </td>
+                <td>
+                    <img src="/Member/RetrieveImage/@item.ID" alt="" height=100 width=100 />
+
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", "Admin", new { id = item.ID },new { @class = "btn btn-danger" })
+                    <input type="submit" class="btn btn-danger" value="Delete" onclick="DeleteEmp('@item.ID')" />
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

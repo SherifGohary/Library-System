@@ -1,0 +1,503 @@
+﻿@*<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>@ViewBag.Title - My ASP.NET Application</title>
+        @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
+    </head>
+    <body>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("About", "About", "Home")</li>
+                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    </ul>
+                    <input class="form-control" id="searchInput" type="search" />
+                    @Html.Partial("_LoginPartial")
+                </div>
+            </div>
+        </div>
+        <div class="container body-content">
+            @RenderBody()
+            <hr />
+            <footer>
+                <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            </footer>
+        </div>
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @*<script src="~/Scripts/jquery-ui.js"></script>*@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Meta -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+    <!-- Title -->
+    <title>..:: LIBRARIA ::..</title>
+
+    <!-- Favicon -->
+    <link href="~/Images/favicon.ico" rel="icon" type="image/x-icon" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i%7CLato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
+    @* <link href="~/Content/font-awesome.min.css" rel="stylesheet" type="text/css" />*@
+
+    <!-- Mobile Menu -->
+    <link href="~/Content/mmenu.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/mmenu.positioning.css" rel="stylesheet" type="text/css" />
+    @Styles.Render("~/Content/css")
+
+    <!-- Stylesheet -->
+    <link href="~/Content/style.css" rel="stylesheet" type="text/css" />
+
+
+
+    <!-- End: Footer -->
+    <!-- jQuery Latest Version 1.x -->
+    <script type="text/javascript" src="~/Scripts/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="~/Scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/mmenu.min.js"></script>
+
+    <!-- Harvey - State manager for media queries -->
+    <script type="text/javascript" src="~/Scripts/harvey.min.js"></script>
+
+    <!-- Waypoints - Load Elements on View -->
+    <script type="text/javascript" src="~/Scripts/waypoints.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/facts.counter.min.js"></script>
+    <!-- MixItUp - Category Filter -->
+    <script type="text/javascript" src="~/Scripts/mixitup.min.js"></script>
+    <!-- Owl Carousel -->
+    <script type="text/javascript" src="~/Scripts/owl.carousel.min.js"></script>
+
+    <!-- Accordion -->
+    <script type="text/javascript" src="~/Scripts/accordion.min.js"></script>
+
+    <script type="text/javascript" src="~/Scripts/responsive.tabs.min.js"></script>
+
+    <script type="text/javascript" src="~/Scripts/responsive.table.min.js"></script>
+    <!-- Masonry -->
+    <script type="text/javascript" src="~/Scripts/masonry.min.js"></script>
+
+    <!-- Carousel Swipe -->
+    <script type="text/javascript" src="~/Scripts/carousel.swipe.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/bxslider.min.js"></script>
+
+    <!-- bxSlider -->
+    <!-- Custom Scripts -->
+    <script type="text/javascript" src="~/Scripts//main.js"></script>
+    @Scripts.Render("~/bundles/modernizr")
+
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top" style="height:30px">
+        <div class="container">
+            <div class="navbar-header text-center">
+                <div class="navbar-brand text-center">
+                    <h1>
+
+                        <a href="/Home/Index">
+                            <img style="height:40px;padding:0px;" src="~/Images/libraria-logo-v1.png" alt="LIBRARIA" />
+                        </a>
+                    </h1>
+                </div>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @*  @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })*@
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+
+
+                    @if (User.IsInRole("BasicAdmin"))
+                    {
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+
+                        <li class="dropdown active">
+                            <a data-toggle="dropdown" class="dropdown-toggle disabled" href="/admin/index">Admins</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/admin/create">Create</a></li>
+                                <li><a href="/admin/reports">Reports</a></li>
+
+
+                            </ul>
+                        </li>
+                        <li class="dropdown active">
+                            <a data-toggle="dropdown" class="dropdown-toggle disabled" href="/Employee/index">Employees</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/Employee/Create">Add Employee</a></li>
+                                <li><a href="/Employee/History">Employees History</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="dropdown active">
+                            <a data-toggle="dropdown" class="dropdown-toggle disabled" href="/Books/index">Books</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/Books/create">Add Book</a></li>
+                                <li><a href="/Books/NewBooks">New Books</a></li>
+
+
+                            </ul>
+                        </li>
+                        <li>@Html.ActionLink("Members", "All", "Member")</li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown"> Notifiction (<span id="countNotify">0</span>) <span class="caret"></span></a>
+                            <ul class="dropdown-menu" id="myNotifyList"></ul>
+                        </li>
+                        <li>@Html.ActionLink("Myprofile", "MyProfile", "Admin")</li>
+
+
+
+
+
+                    }
+                    @if (User.IsInRole("Admin"))
+                    {
+
+                        ////////////////////////////////////////////////////////////////////// admin
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+
+
+                        <li class="dropdown active">
+                            <a data-toggle="dropdown" class="dropdown-toggle disabled" href="/Employee/index">Employees</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/Employee/Create">Add Employee</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="dropdown active">
+                            <a data-toggle="dropdown" class="dropdown-toggle disabled" href="/Books/index">Books</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/Books/create">Add Book</a></li>
+
+                            </ul>
+                        </li>
+                        <li>@Html.ActionLink("Members", "All", "Member")</li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown"> Notifiction (<span id="countNotify">0</span>) <span class="caret"></span></a>
+                            <ul class="dropdown-menu" id="myNotifyList"></ul>
+                        </li>
+                        <li>@Html.ActionLink("Myprofile", "MyProfile", "Admin")</li>
+
+
+
+                    }
+                    @if (User.IsInRole("Employee"))
+                    {
+                        ///////////////////////////////////////////////////////////////////////////////////// Employee
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+
+                        <li class="dropdown active">
+                            <a data-toggle="dropdown" class="dropdown-toggle disabled" href="/books/index">Books</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/Books/create">Add Book</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown active">
+                            <a data-toggle="dropdown" class="dropdown-toggle disabled" href="/member/All">Members</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/Employee/History">Employees History</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown"> Notifiction (<span id="countNotify">0</span>) <span class="caret"></span></a>
+                            <ul class="dropdown-menu" id="myNotifyList"></ul>
+                        </li>
+                        <li class="dropdown active">
+                            <a data-toggle="dropdown" class="dropdown-toggle disabled" href="/Employee/details">My Profile</a>
+
+                        </li>
+
+
+
+
+
+                    }
+                    @if (User.IsInRole("Member"))
+
+                    {
+                        ///////////////////////////////////////////////////////////admin
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+
+                        <li class="dropdown active">
+                            <a data-toggle="dropdown" class="dropdown-toggle disabled" href="/books/index">Books</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/Member/CurrentBorrow">CurrentBorrowing</a></li>
+                                <li><a href="/Member/ListBorrowedBooks">History</a></li>
+                                <li><a href="/Books/NewBooks">New Books</a></li>
+
+
+                            </ul>
+
+                        </li>
+                        <li>@Html.ActionLink("Myprofile", "Profiles", "Member")</li>
+
+
+
+
+
+                    }
+
+
+
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        @*<footer>
+                <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            </footer>*@
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+    </div>
+    <footer class="site-footer">
+        <div class="container">
+            <div id="footer-widgets">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 widget-container">
+                        <div id="text-2" class="widget widget_text">
+                            <h3 class="footer-widget-title">About Libraria</h3>
+                            <span class="underline left"></span>
+                            <div class="textwidget">
+                                It is a long established fact that a reader will be distracted by the readable content of a page when looking.
+                            </div>
+                            <address>
+                                <div class="info">
+                                    <i class="fa fa-location-arrow"></i>
+                                    <span>21 King Street, Mansoura Egypt</span>
+                                </div>
+                                <div class="info">
+                                    <i class="fa fa-envelope"></i>
+                                    <span><a href="mailto:mohamed_hamada1@yahoo.com">mohamed_hamada1@yahoo.com</a></span>
+                                </div>
+                                <div class="info">
+                                    <i class="fa fa-phone"></i>
+                                    <span><a href="tel:012-345-6789">+ 012-345-6789</a></span>
+                                </div>
+                            </address>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6 widget-container">
+                        <div id="nav_menu-2" class="widget widget_nav_menu">
+                            <h3 class="footer-widget-title">Quick Links</h3>
+                            <span class="underline left"></span>
+                            <div class="menu-quick-links-container">
+                                <ul id="menu-quick-links" class="menu">
+                                    <li><a href="#">Library News</a></li>
+                                    <li><a href="#">History</a></li>
+                                    <li><a href="#">Meet Our Staff</a></li>
+                                    <li><a href="#">Board of Trustees</a></li>
+                                    <li><a href="#">Budget</a></li>
+                                    <li><a href="#">Annual Report</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix hidden-lg hidden-md hidden-xs tablet-margin-bottom"></div>
+                    <div class="col-md-2 col-sm-6 widget-container">
+                        <div id="text-4" class="widget widget_text">
+                            <h3 class="footer-widget-title">Timing</h3>
+                            <span class="underline left"></span>
+                            <div class="timming-text-widget">
+                                <time datetime="2017-02-13">Mon - Thu: 9 am - 9 pm</time>
+                                <time datetime="2017-02-13">Fri: 9 am - 6 pm</time>
+                                <time datetime="2017-02-13">Sat: 9 am - 5 pm</time>
+                                <time datetime="2017-02-13">Sun: 1 pm - 6 pm</time>
+                                <ul>
+                                    <li><a href="#">Closings</a></li>
+                                    <li><a href="#">Branches</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 widget-container">
+                        <div class="widget twitter-widget">
+                            <h3 class="footer-widget-title">Latest Tweets</h3>
+                            <span class="underline left"></span>
+                            <div id="twitter-feed">
+                                <ul>
+                                    <li>
+                                        @*  <p><a href="#">@TemplateLibraria</a> Sed ut perspiciatis unde omnis iste natus error sit voluptatem. <a href="#">template-libraria.com</a></p>*@
+                                    </li>
+                                    <li>
+                                        @*<p><a href="#">@TemplateLibraria</a> Sed ut perspiciatis unde omnis iste natus error sit voluptatem. <a href="#">template-libraria.com</a></p>*@
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-text col-md-3">
+                        <p>&copy; 2019 ITI39. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-9 pull-right">
+                        <ul>
+                            <li><a href="/Home/Index">Home</a></li>
+                            <li><a href="news-events-list-view.html">News &amp; Events</a></li>
+                            <li><a href="#">Kids &amp; Teens</a></li>
+                            <li><a href="#">Research</a></li>
+                            <li><a href="/Home/About">About</a></li>
+                            <li><a href="/Home/contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    <link href="~/Content/jquery-ui.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-ui.js"></script>
+    @RenderSection("scripts", required: false)
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            setInterval(function () {
+                UpdateNotifications();
+            }, 3000);
+        });
+        function ToJavaScriptDate(value) {
+            var pattern = /Date\(([^)]+)\)/;
+            var results = pattern.exec(value);
+            var dt = new Date(parseFloat(results[1]));
+            return (dt.getMonth() + 1) + "/" + dt.getDate() + "/" + dt.getFullYear();
+        }
+        function UpdateNotifications() {
+            $.ajax({
+                type: "GET",
+                url: "/Admin/GetNotifications",
+                data: {},
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (response) {
+                    console.log(response);
+                    if (response != null) {
+
+                        var j = ""; var p = 0; var Q = "";
+                        $.each(response, function (k, v) {
+                            p++;
+                            if (p < 6) {
+                                j += "<li><a> <strong>  " + v.appUser.FirstName.toString() + v.Body.toString() + " </strong> <br /> <div style='text-align:right;font-size:smaller;font-style:italic'> <i style='font-size:smaller'> updated : " + ToJavaScriptDate(v.Date) + "</i></div></a></li>";
+                            }
+                            Q += "<a><strong>  " + v.appUser.FirstName.toString() + v.Body.toString() + " </strong> <br /> <div style='text-align:right;font-size:smaller;font-style:italic'> <i style='font-size:smaller'> updated : " + ToJavaScriptDate(v.Date) + "</i></div></a>";
+                        });
+                        $('#myNotifyList').html("");
+                        j += "<li><a data-toggle='modal' data-target='#myModal'><div style='text-align:center'><strong> Show more </strong></div></li>";
+                        $('#myNotifyList').append(j);
+                        $('#countNotify').html("<span>" + p + "</span>");
+                        $('#myAllNotifications').html("");
+                        $('#myAllNotifications').append(Q);
+                    }
+                },
+                failure: function (response) {
+                    alert(response.d);
+                }
+            });
+        }
+    </script>
+
+
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                    </button>
+                    <h4 class="modal-title">
+                        <img src="assets/img/nty.png" style="height: 50px; width: 50px">
+                        Notifications
+                    </h4>
+                </div>
+                <div class="modal-body" id="myAllNotifications">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+
+
+

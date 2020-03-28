@@ -1,0 +1,115 @@
+﻿@model IEnumerable<ProjectMVC.Models.Book>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<style>
+    .card {
+        /* Add shadows to create the "card" effect */
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+    }
+
+        /* On mouse-over, add a deeper shadow */
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+
+    /* Add some padding inside the card container */
+    .container {
+        padding: 2px 16px;
+        
+    }
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius: 5px; /* 5px rounded corners */
+        text-align:center;
+        width:300px;
+        display:inline-block;
+    }
+
+    /* Add rounded corners to the top left and the top right corner of the image */
+    img {
+        border-radius: 5px 5px 0 0;
+        width: 150px;
+        height: 150px;
+
+    }
+</style>
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<p>
+    @using (Html.BeginForm())
+    {
+        <b>Search By : </b>
+        <select id="SearchBy" name="SearchBy">
+            <option value="Title" >Book Title</option>
+            <option value="Author">Book Author</option>
+            <option value="Publisher">Book Publisher</option>
+            <option value="Category">Category</option>
+        </select><br />
+        @*@Html.TextBox("search",null,htmlAttributes: new { @id="search"})*@
+        <input class="typeahead" name="search" id="search" type="text" placeholder="Books Search"><input type="submit" id="SearchBtn" value="Search" />
+
+    }
+
+
+</p>
+
+
+@foreach (var item in Model)
+{
+    <div class="card">
+        <div style="padding:10px;"><h4>@Html.DisplayFor(modelItem => item.Title)</h4></div>
+        <img src="/Books/RetrieveImage/@item.ID" alt="" height=100 width=100 />
+        <div>
+            @if (User.IsInRole("Employee"))
+            {
+                @Html.ActionLink("Borrow", "Borrow", new { id = item.ID }) ;
+                @Html.ActionLink("Read", "Read", new { id = item.ID }) ;
+            }
+            @Html.ActionLink("Details", "Details", new { id = item.ID })
+        
+        </div>
+    </div>
+
+}
+
+@section scripts{
+    <script>
+        $(document).ready(function () {
+            $("#search").autocomplete({
+                source: function (request, response) {
+                    $.ajax({
+                        url: "/Books/Index1",
+                        type: "POST",
+                        dataType: "json",
+                        data: { Prefix: request.term, searchby: $("#SearchBy").val() },
+                        success: function (data) {
+                            response($.map(data, function (item) {
+                                if ($("#SearchBy").val()=="Title")
+                                    return { label: item.Title, value: item.Title };
+                                else if ($("#SearchBy").val() == "Author")
+                                    return { label: item.Author, value: item.Author };
+                                else if ($("#SearchBy").val() == "Publisher")
+                                    return { label: item.Publisher, value: item.Publisher };
+                                else
+                                    return { label: item.Name, value: item.Name };
+
+                            }))
+
+                        }
+                    })
+                },
+                messages: {
+                    noResults: "", results: ""
+                }
+            });
+        })
+</script>
+    }
